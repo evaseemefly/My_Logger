@@ -56,6 +56,10 @@
       <Project>{6cfae736-1b89-4d3a-a635-0dd5da3c4a6b}</Project>
       <Name>Config</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Enum\Enum.csproj">
+      <Project>{3dda25d2-532b-455a-900e-0049eef4929f}</Project>
+      <Name>Enum</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

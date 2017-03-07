@@ -10,6 +10,7 @@ namespace My_Logger
     {
         static void Main(string[] args)
         {
+            Logger.LoggerFactory.Instance.Logger_Debug("测试debug级别日志");
         }
     }
 }
